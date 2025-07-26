@@ -22,7 +22,7 @@ public void mostrarInformacion() {
 }
 
 public double calcularPrecioTotal() {
-    return precioPorKilo * cantidadEnKilos;
+    return this.precioPorKilo * (double) this.cantidadEnKilos;
 
 }
 
